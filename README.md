@@ -1,6 +1,13 @@
 <p align="center"><img src="Icon/icon_1024.png" width="160" alt="Revive icon"></p>
 
-# Revive
+<h1 align="center">Revive</h1>
+
+<p align="center">
+  <a href="https://github.com/kunalsharmavlog-hue/revive/releases/latest"><img src="https://img.shields.io/github/v/release/kunalsharmavlog-hue/revive?label=download" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/macOS-14%2B-black?logo=apple" alt="macOS 14+">
+  <img src="https://img.shields.io/badge/Swift-native-F05138?logo=swift&logoColor=white" alt="Swift">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>
+</p>
 
 Created by **Kunal** · [lutly.video@gmail.com](mailto:lutly.video@gmail.com)
 
@@ -23,6 +30,19 @@ Premiere Pro projects together with their media.
   the newest valid copy, keeping a backup so the change can be undone.
 - **Safe by design.** Recover Files and Deep Scan only read the damaged drive. Scans are saved,
   and recoveries can be stopped and continued later without copying anything twice.
+
+## Install
+
+1. Download the latest `Revive-x.y.zip` from [Releases](https://github.com/kunalsharmavlog-hue/revive/releases/latest)
+   and unzip it.
+2. Drag **Revive.app** into your **Applications** folder.
+3. The first time, **right-click Revive → Open**, then click **Open**. (The build isn't notarized
+   by Apple yet, so macOS asks once.)
+4. Give Revive **Full Disk Access**: System Settings › Privacy & Security › **Full Disk Access** ›
+   click **+** › choose **Revive** › switch it on › quit and reopen Revive. Revive also shows a
+   banner with a button that opens this page.
+
+To build it yourself instead, see [Building](#building).
 
 ## Requirements
 
@@ -79,12 +99,6 @@ Revive --apfs-catalog <INDEX.nodes> <out.tsv>
 Selectors for `--apfs-folders`: a folder name, `#<folderId>`, `+<file with file ids>`,
 `%<streamId>` (unnamed data), `@<INDEX.nodes>` (reuse a saved scan), `!scanonly`.
 
-## Download
-
-Get the latest `Revive-x.y.zip` from the [Releases](https://github.com/kunalsharmavlog-hue/revive/releases) page,
-unzip it, move **Revive.app** to Applications, then right-click › **Open** the first time
-(the build is not notarized yet).
-
 ## Author and license
 
 Revive was created by **Kunal**. Contact: [lutly.video@gmail.com](mailto:lutly.video@gmail.com).
@@ -92,3 +106,6 @@ Revive was created by **Kunal**. Contact: [lutly.video@gmail.com](mailto:lutly.v
 Released under the [MIT License](LICENSE). You may use, change and share it, as long as the
 copyright notice stays included. Revive comes without any warranty: data recovery is never
 guaranteed, so always keep backups.
+
+Also by Kunal: [Pangolin](https://github.com/kunalsharmavlog-hue/pangolin) (free Mac cleaner and
+system monitor) and [Focus Feed](https://github.com/kunalsharmavlog-hue/focus-feed) (keep Instagram on-topic).
